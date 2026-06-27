@@ -1,0 +1,1 @@
+/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  swcMinify: true,\n  images: {\n    domains: ['images.unsplash.com', 'api.placeholder.com', 'i.pravatar.cc'],\n  },\n}\n\nexport default nextConfig
